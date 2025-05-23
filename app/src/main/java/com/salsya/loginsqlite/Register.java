@@ -1,10 +1,13 @@
 package com.salsya.loginsqlite;
 
+import static com.salsya.loginsqlite.R.id.tvLogin;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Patterns;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,7 +15,9 @@ import androidx.appcompat.app.AppCompatActivity;
 public class Register extends AppCompatActivity {
 
     private EditText edtName, edtEmail, edtPassword, edtConfirmPassword;
-    private Button btnRegister, btnToLogin;
+
+    private TextView tvLogin;
+    private Button btnRegister;
     private DatabaseHelper db;
 
     @Override
@@ -25,7 +30,7 @@ public class Register extends AppCompatActivity {
         edtPassword = findViewById(R.id.edtPassword);
         edtConfirmPassword = findViewById(R.id.edtConfirmPassword);
         btnRegister = findViewById(R.id.btnRegister);
-        btnToLogin = findViewById(R.id.btnToLogin);
+        tvLogin = findViewById(R.id.tvLogin);
 
         db = new DatabaseHelper(this);
 
@@ -59,7 +64,7 @@ public class Register extends AppCompatActivity {
             }
         });
 
-        btnToLogin.setOnClickListener(v -> {
+        tvLogin.setOnClickListener(v -> {
             startActivity(new Intent(this, Login.class));
             finish();
         });

@@ -95,7 +95,7 @@
                 android:backgroundTint="@color/purple_700"/>
 
             <TextView
-                android:id="@+id/btnToLogin"
+                android:id="@+id/tvLogin"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Sudah punya akun? Login"
