@@ -1,8 +1,9 @@
 # 📱 Android Login & Register App with SQLite
 
-A simple Android application that allows users to register and login using local SQLite database. Built with **Java**, **XML**, and **SQLite** using Android Studio.
 
----
+## Nama   : Salwa Syahratul Aeni
+## NIM    : 220220031
+## Prodi  : Sistem Informasi
 
 ## 🚀 Features
 
@@ -54,6 +55,23 @@ A simple Android application that allows users to register and login using local
 
 ---
 
+## 🖼️ Tampilan Aplikasi
+
+| Tampilan Login | Tampilan Register |
+|----------------|-------------------|
+| ![Login](screenshot/1.png) | ![Register](screenshot/2.png) |
+
+| Validasi Login | Validasi Register |
+|----------------|-------------------|
+| ![Login Validation](screenshot/3.png) | ![Register Validation](screenshot/4.png) |
+
+| Berhasil Login |
+|----------------|
+| ![Success Login](screenshot/5.png) |
+
+
+---
+
 ## 🛠️ Tools & Teknologi
 
 - Java
@@ -70,10 +88,4 @@ A simple Android application that allows users to register and login using local
 2. Buka dengan **Android Studio**
 3. Jalankan di emulator atau perangkat fisik
 4. Lakukan proses register, lalu login
-
----
-
-## 📄 License
-
-This project is intended for educational purposes and open for learning or improvement.
 
