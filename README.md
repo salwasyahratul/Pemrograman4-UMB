@@ -1,9 +1,10 @@
 # 📱 Android Login & Register App with SQLite
 
-
-## Nama   : Salwa Syahratul Aeni
-## NIM    : 220220031
+## Nama   : Salwa Syahratul Aeni  
+## NIM    : 220220031  
 ## Prodi  : Sistem Informasi
+
+---
 
 ## 🚀 Features
 
@@ -57,18 +58,30 @@
 
 ## 🖼️ Tampilan Aplikasi
 
-| Tampilan Login | Tampilan Register |
-|----------------|-------------------|
-| ![Login](screenshot/1.png) | ![Register](screenshot/2.png) |
-
-| Validasi Login | Validasi Register |
-|----------------|-------------------|
-| ![Login Validation](screenshot/3.png) | ![Register Validation](screenshot/4.png) |
-
-| Berhasil Login |
-|----------------|
-| ![Success Login](screenshot/5.png) |
-
+<table>
+  <tr>
+    <td><strong>Tampilan Login</strong></td>
+    <td><strong>Tampilan Register</strong></td>
+  </tr>
+  <tr>
+    <td><img src="screenshot/1.png" width="250"/></td>
+    <td><img src="screenshot/2.png" width="250"/></td>
+  </tr>
+  <tr>
+    <td><strong>Validasi Login</strong></td>
+    <td><strong>Validasi Register</strong></td>
+  </tr>
+  <tr>
+    <td><img src="screenshot/3.png" width="250"/></td>
+    <td><img src="screenshot/4.png" width="250"/></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><strong>Berhasil Login</strong></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><img src="screenshot/5.png" width="300"/></td>
+  </tr>
+</table>
 
 ---
 
@@ -88,4 +101,3 @@
 2. Buka dengan **Android Studio**
 3. Jalankan di emulator atau perangkat fisik
 4. Lakukan proses register, lalu login
-
